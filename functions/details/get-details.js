@@ -22,6 +22,9 @@ function main(params) {
         resolve(getTimeSlots(new Date()));
       }
     }
+   else {
+    return("input":"No callback")
+   }
   })
 }
 
