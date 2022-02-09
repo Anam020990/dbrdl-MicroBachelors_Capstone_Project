@@ -23,7 +23,7 @@ function main(params) {
       }
     }
    else {
-    return("input":"No callback")
+    resolve({status:true})
    }
   })
 }
